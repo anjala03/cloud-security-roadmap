@@ -1,0 +1,5 @@
+ifconfig: to find the ip address, en0 generally means for your wifi
+hostname: name of your computer
+networksetup -listallhadwareports: lists all the hardware ports
+networksetup -getmacaddress en0: get the macaddress of your wifi device
+netstat -nr | grep default: gets the default gateway of your wifi
